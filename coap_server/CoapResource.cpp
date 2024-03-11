@@ -44,4 +44,3 @@ void callback_response(CoapPacket &packet, IPAddress ip, int port)
 
   Serial.println(p);
 }*/
-

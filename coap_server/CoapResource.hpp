@@ -5,18 +5,12 @@
 
 class CoapPacket;
 
+typedef void ResourceCallback(CoapPacket &packet, IPAddress ip, int port)
 
-
-typedef void EesourceCallback(CoapPacket &packet, IPAddress ip, int port)
-
-class CoAPResource{
+    class CoAPResource
+{
 public:
-  
-  static CoAPResource initResoure(String name, EesourceCallback );
 private:
-  CoAPResource(String name,);
-  bool m_isValid;
-
 };
 
 #endif
